@@ -1,0 +1,356 @@
+@media (max-width: 740px){
+    .man-product-item:nth-child(3){
+        display: none;
+    }
+    .carousel-item img{
+        width:100%;
+        height: 150px !important;
+    }
+    .header-man-product-function{
+        padding:0 5% !important;
+    }
+    .header-man-product-menu{
+        padding:unset;
+    }
+    .man-product-item img{
+        width:150px;
+        height:150px;
+    }
+    .man-product-list-menu{
+        flex-wrap: wrap;
+    }
+    .man-product-item{
+        padding-bottom:15px;
+    }
+    .man-product-formEmail{
+        margin:0 7% !important;
+    }
+    .man-product-formEmail .input-group{
+        width:280px !important;
+    }
+    .man-product-text1{
+        font-size:12px !important;
+        padding:35px 15% !important;
+    }
+    .man-product-text2{
+        font-size:12px !important;
+        padding: 15px 15% !important;
+    }
+    .man-product-footer-item span{
+        font-size:14px;
+    }
+    .man-product-footer-item ul li{
+        font-size:12px;
+    }
+    .man-product-footer{
+        padding:50px 4% !important;
+    }
+    .man-product-pay{
+        font-size:12px;
+    }
+    .man-product-title{
+        font-size:12px;
+        padding:5px 10px;
+    }
+    h4{
+        padding:0 20px !important;
+    }
+    /* MANmenu */
+    .man-menu-item{
+        margin: unset;
+        padding: 8px 3px;
+    }
+    .man-menu-list{
+        flex-wrap: wrap;
+    }
+    .man-menu-item-desc img{
+        width:150px;
+        height:150px;
+    }
+    .man-menu-item-cash{
+        margin-top:unset;
+    }
+    .man-menu-item-desc{
+        padding:5px 5px;
+    }
+    .man-menu-category-item{
+        width: 100%;
+    }
+    .man-menu-category-item img{
+        width: 130px;
+    }
+    .man-menu-title-img{
+        font-size:15px;
+    }
+    .man-menu-policy{
+        font-size: 13px !important;
+        height: unset !important;
+    }
+    .man-menu-detail{
+        padding:30px 15px;
+    }
+    .man-menu-detail img{
+        width:200px;
+        height:200px;
+    }
+    .man-menu-detail-text1{
+        padding:unset !important;
+    }
+    .man-menu-detail-text1 span{
+        font-size:20px !important;
+    }
+    .man-menu-detail-text1 div{
+        font-size:11px !important;
+        /* margin-top:10px !important; */
+    }
+    .man-menu-detail-button{
+        margin-top:10px !important;
+        font-size: 10px !important;
+    }
+    .man-product-group-filter{
+        display: none;
+    }
+    .filter-mobile{
+        display: block;
+    }
+    .modal-body label{
+        font-size:13px;
+    }
+    .modal-body span{
+        font-size:18px !important;
+        color:#9A3800;
+    }
+    .man-product-filter-item{
+        padding:5px 20px;
+    }
+    .man-menu-item img{
+        width:150px;
+        height:150px;
+    }
+}
+
+/* Điện thoại nhỏ */
+@media (max-width: 380px){
+    .man-product-item:nth-child(3){
+        display: none;
+    }
+    .man-menu-item img{
+        width:150px;
+        height:150px;
+    }
+    .carousel-item img{
+        width:100%;
+        height: 150px !important;
+    }
+    .header-man-product-function{
+        padding:0 5% !important;
+    }
+    .header-man-product-menu{
+        padding:unset;
+    }
+    .man-product-item img{
+        width:150px;
+        height:150px;
+    }
+    .man-product-list-menu{
+        flex-wrap: wrap;
+    }
+    .man-product-item{
+        padding-bottom:15px;
+    }
+    .man-product-formEmail{
+        margin:0 5% !important;
+    }
+    .man-product-formEmail .input-group{
+        width:280px !important;
+    }
+    .man-product-text1{
+        font-size:12px !important;
+    }
+    .man-product-text2{
+        font-size:12px !important;
+        padding: 15px 15% !important;
+    }
+    .man-product-footer-item span{
+        font-size:14px;
+    }
+    .man-product-footer-item ul li{
+        font-size:12px;
+    }
+    .man-product-footer{
+        padding:50px 4% !important;
+    }
+    .man-product-pay{
+        font-size:12px;
+    }
+    .man-product-title{
+        font-size:12px;
+        padding:5px 10px;
+    }
+    h4{
+        padding:0 20px !important;
+    }
+    /* MANmenu */
+    .man-menu-item{
+        margin: unset;
+        padding: 8px 3px;
+    }
+    .man-menu-list{
+        flex-wrap: wrap;
+    }
+    .man-menu-item-desc img{
+        width:130px;
+        height:130px;
+    }
+    .man-menu-item-cash{
+        margin-top:unset;
+    }
+    .man-menu-item-desc{
+        padding:5px 0;
+    }
+    .man-menu-category-item{
+        width: 100%;
+    }
+    .man-menu-category-item img{
+        width: 130px;
+    }
+    .man-menu-title-img{
+        font-size:15px;
+    }
+    .man-menu-policy{
+        font-size: 13px !important;
+        height: unset !important;
+    }
+    .man-menu-detail{
+        padding:30px 15px;
+    }
+    .man-menu-detail img{
+        width:200px;
+        height:200px;
+    }
+    .man-menu-detail-text1{
+        padding:unset !important;
+    }
+    .man-menu-detail-text1 span{
+        font-size:20px !important;
+    }
+    .man-menu-detail-text1 div{
+        font-size:11px !important;
+        /* margin-top:10px !important; */
+    }
+    .man-menu-detail-button{
+        margin-top:10px !important;
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width:740px) and (max-width:770px){
+    .man-menu-detail-text1{
+        padding:16px 60px !important;
+    }
+}
+
+@media (min-width:1270px) and (max-width:1400px){
+    .man-menu-detail-text1{
+        padding:16px 60px !important;
+    }
+}
+@media (min-width:768px) and (max-width:900px){
+    .man-product-formEmail{
+        margin: 0 25%;
+    }
+}
+
+/* PC Mini */
+/* @media (max-width: 1300px){
+    .man-menu-detail-text1{
+        padding:unset !important;
+    }
+} */
+
+/* Tablet & PC */
+@media (min-width: 768px) and (max-width:1281px){
+    .carousel-item img{
+        height: 300px !important;
+    }
+    .man-menu-item-desc img{
+        width:155px !important;
+        height:155px !important;
+    }
+    .man-menu-category img{
+        width:264px;
+    }
+    .man-menu-detail img{
+        width: 400px;
+        height: 350px;
+    }
+    .man-menu-detail-text1 span{
+        font-size:40px !important;
+    }
+    .man-menu-detail-text1 div{
+        font-size:15px;
+    }
+    .man-menu-detail-text1{
+        padding:15px 0 !important;
+    }
+    /* .man-product-formEmail{
+        margin:0 7%;
+    } */
+    .man-product-text2{
+        font-size:13px !important;
+        padding: 15px 25%;
+    }
+    .man-menu-title-img{
+        font-size:20px;
+    }
+    .man-product-item{
+        padding: 0 8px;
+    }
+    .man-product-img img{
+        width: 184px;
+        height: 250px;
+    }
+    h4{
+        padding:unset !important;
+    }
+
+}
+/* Tablet Mini */
+/* @media (max-width:800px) and (min-width: 780px){
+    .carousel-item img{
+        height: 300px !important;
+    }
+    .man-menu-item-desc img{
+        width:155px !important;
+        height:155px !important;
+    }
+    .man-menu-category img{
+        width:264px;
+    }
+    .man-menu-detail img{
+        width: 400px;
+        height: 350px;
+    }
+    .man-menu-detail-text1 span{
+        font-size:40px !important;
+    }
+    .man-menu-detail-text1 div{
+        font-size:15px;
+    }
+    .man-menu-detail-text1{
+        padding:15px 0 !important;
+    }
+    .man-product-formEmail{
+        margin:0 7% !important;
+    }
+    .man-product-text2{
+        font-size:13px !important;
+        padding: 15px 25%;
+    }
+    .man-menu-title-img{
+        font-size:20px;
+    }
+    .man-menu-item-desc{
+        padding:10px 3px !important;
+    }
+} */

@@ -1,0 +1,319 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*==BANNER==*/
+.header{
+    height:150px;
+    background-color: black;
+    /* position: fixed;
+    width: 100%;
+    z-index: 1; */
+}
+.header-man-product-function{
+    display: flex;
+    justify-content: space-between;
+    padding:0 25%;
+    height:150px;
+}
+.header-man-product-icon{
+    padding:25px 0;
+}
+.header-man-product-icon span{
+    color:white;
+}
+.man-menu-description{
+    padding:5px 5px;
+}
+.man-product-footer-bg{
+    background-color: white;
+    margin:0 15%;
+}
+.man-product-footer-title span{
+    font-size:12px;
+}
+.man-product-footer-title img{
+    width:80px;
+    height:80px;
+}
+.man-product-text1{
+    text-align: center;
+    color: white;
+    padding: 40px 15%;
+}
+.man-product-footer-title{
+    text-align: center;
+    color:white;
+    padding:10px 0;
+}
+.man-product-text-bg{
+    background-color:#9A3800; 
+    height:300px;
+}
+.man-product-footer-main{
+    background: black;
+    height:400px;
+}
+.man-product-text2{
+    text-align: center;
+    color: white;
+    padding: 15px 36%;
+    font-size: 12px;
+}
+.man-product-formEmail{
+    margin:0 25%;
+}
+.input-group-text{
+    background:black;
+    color:white;
+}
+.man-product-text1{
+    text-align: center;
+    color: white;
+    padding: 40px 15%;
+}
+.man-product-text2{
+    text-align: center;
+    color: white;
+    padding: 15px 36%;
+    font-size: 12px;
+}
+.man-product-group-filter-title{
+    padding-top:35px;
+}
+.man-product-group-filter-title span{
+    font-size:30px;
+    color:#9A3800;
+}
+.man-product-noname{
+    height:60px;
+    background:#D9D9D9;
+    text-align: center;
+    line-height: 3.5;
+}
+.man-product-tilte-category{
+    padding:15px 0px;
+    font-size:30px;
+}
+.header-man-product-menu{
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    position: relative;
+    top:-50px;
+    padding:0 25%;
+    font-weight: 600;
+}
+
+.man-menu-policy{
+    height:100px;
+    background:#D9D9D9;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 4.5;
+    font-size:20px;
+}
+.man-menu-detail-text1{
+    background-color: #D9D9D9;
+    text-align: center;
+    padding:80px 60px;
+}
+.man-menu-detail-text1 span{
+    font-size:50px;
+}
+.man-menu-detail-button{
+    margin-top:40px;
+}
+.man-menu-detail-button a{
+    background-color: #9A3800;
+    padding:10px 30px;
+    color:white !important;
+    border-radius:5px;
+}
+.man-menu-bg{
+    background-color:#9A3800;
+     height:300px;
+}
+.carousel-item img{
+    height:400px;
+}
+.header-man-product-menu a{
+    text-decoration: none;
+    color:unset;
+}
+.filter-mobile{
+    display: none;
+    border-radius:50%;
+    background-color: #9A3800;
+    width: 40px;
+    text-align: center;
+    line-height: 2;
+    height: 40px;
+    font-size:20px;
+    color:white;
+    position: fixed;
+    z-index: 1;
+    right: 0%;
+}
+/*==CONTENT==*/
+.man-product-list-menu{
+    display: flex;
+    justify-content: left;
+}
+.man-product-img{
+    border:1px solid #9A3800;
+}
+.man-product-item{
+    padding:0 7px;
+}
+.man-product-item img{
+    width:300px;
+    height:300px;
+}
+.man-product-desc{
+    border:1px solid #9A3800;
+    border-top:unset;
+    padding:0 0px;
+}
+.man-product-title{
+    padding:7px 10px;
+}
+.man-product-price{
+    padding:5px 0;
+}
+.man-product-pay{
+    text-align: center;
+    color:white;
+    background-color: #9A3800;
+    padding:10px 10px;
+}
+.man-product-footer{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    padding:50px 15%;
+}
+.man-product-footer-item ul{
+    list-style: none;
+    padding:unset;
+}
+.man-product-footer-item span{
+    font-size:25px;
+}
+/* MANmenu */
+.man-menu-list{
+    display: flex;
+    /* padding:0 20px; */
+    justify-content: center;
+}
+.man-menu-item{
+    /* border:1px solid #9A3800; */
+    /* padding:0 20px; */
+    margin:0 10px;
+}
+.man-menu-item-desc{
+    padding:10px 10px;
+    border: 1px solid #9A3800;
+}
+.man-menu-img{
+    text-align: center;
+}
+.man-menu-item img{
+    width:230px;
+    height:230px;
+    margin:15px 0;
+}
+.man-menu-item-color{
+    display: flex;
+}
+.man-menu-item-color div{
+    border-radius: 50%;
+    width:20px;
+    height: 20px;
+    margin:10px 3px;
+}
+.man-menu-item-cash{
+    text-align: center;
+    color:white;
+    background-color: #9A3800;
+    height: 50px;
+    line-height: 3;
+}
+.man-menu-category{
+    display: flex;
+    justify-content: center;
+}
+.man-menu-category img{
+    padding:0 10px;
+}
+.man-menu-category-item{
+    position: relative;
+}
+.man-menu-title-img{
+    position: absolute;
+    top:50%;
+    text-align: center;
+    color:white;
+    width: 100%;
+    font-size:30px;
+}
+.man-menu-detail{
+    display: flex;
+    justify-content: center;
+    padding: 30px 10%;
+}
+.man-product-filter{
+    padding:20px 0;
+    list-style:none;
+}
+.man-product-filter-item{
+    padding:10px 35px;
+}
+
+input[type="radio"]{
+    accent-color: #9A3800;
+    /* background-color: #9A3800; */
+  }
+  .man-product-filter label{
+    font-size:18px;
+  }
