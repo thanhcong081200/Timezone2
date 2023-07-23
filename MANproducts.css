@@ -512,7 +512,7 @@ input[type="radio"] {
 
 .man-bg-collections {
     height: 700px;
-    background: url('/imgs/banner51.png') no-repeat;
+    background: url('banner51.png') no-repeat;
     background-size: 100% 100%;
 }
 
